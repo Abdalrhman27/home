@@ -1,0 +1,58 @@
+
+
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+body{
+    background-color: #ffe0e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.dad{
+    height: 80%;
+    width: 60%;
+    margin: 5%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+}
+.color{
+    color: rgb(150, 60, 60);
+}
+
+.table-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-family: sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+.value {
+    color: #963c3c;
+    font-weight: bold;
+}
+.list{
+    background: #ffe1e1;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
